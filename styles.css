@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 15px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #f7c948, #f09819);
+    color: white;
+}
+
+.hero .btn {
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #f09819;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.service-list li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.portfolio-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+}
+
+.slide {
+    flex: 0 0 100%;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+    width: 300px; 
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid #f09819;
+    border-radius: 5px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #f7c948;
+    color: #222;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Testimonials */
+.testimonial {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 600px;
+    background: #f7c948;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #f7c948;
+    text-decoration: none;
+}
+
+/* Creator Name */
+.creator-name {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7); /* Subtle background for visibility */
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+    z-index: 1000; /* Ensures it stays above other elements */
+}
+
+.creator-name p {
+    margin: 0;
+}
